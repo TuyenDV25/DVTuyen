@@ -29,7 +29,7 @@ import com.example.social_network.service.AuthService;
 import jakarta.validation.Valid;
 
 @RestController
-@RequestMapping("/authvc")
+@RequestMapping("/authh")
 public class AuthController {
 
 	@Autowired
