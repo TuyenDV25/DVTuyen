@@ -39,7 +39,7 @@ public class AuthController {
 	public ResponseEntity<RegistUserResDto> register(@RequestBody @Valid RegistUserRepDto userInfo) {
 		return service.insertUser(userInfo);
 	}
-
+//abccui
 	@GetMapping("/user/userProfile")
 	@PreAuthorize("hasAuthority('ROLE_USER')")
 	public String userProfile() {
