@@ -45,7 +45,7 @@ public class AuthController {
 	public String userProfile() {
 		return "Welcome to User Profile";
 	}
-
+//cbsf
 	@GetMapping("/admin/adminProfile")
 	@PreAuthorize("hasAuthority('ROLE_ADMIN')")
 	public String adminProfile() {
